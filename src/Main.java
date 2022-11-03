@@ -48,7 +48,7 @@ public class Main {
 
 // task 5
 // зерультат задачи 4 печатаем каждый 6-й месяц
-        System.out.println("\n*** task 5: same as task 4, but print every 6 month)");
+        System.out.println("\n*** task 5: same as task 4, but print every 6 month");
         summaV = 15000;
         mohth = 0;
         while (summaV < 12_000_000) {
@@ -59,7 +59,7 @@ public class Main {
 
 // task 6
 // при техже условиях копим 9 лет
-        System.out.println("\n*** task 5: same as task 5, but saving money for 9 years)");
+        System.out.println("\n*** task 6: same as task 5, but saving money for 9 years");
         summaV = 15000;
         mohth = 0;
         while (mohth < (12*9)) {
@@ -67,5 +67,32 @@ public class Main {
             mohth++;
             if (mohth % 6 == 0) System.out.println(mohth+"-й месяц: сумма накоплений = "+summaV);
         }
+
+// task 7
+// пятница - день отчётов
+        System.out.println("\n*** task 7: Friday is the day for reports");
+        int friday = 3;
+        while (friday <=31) {
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
+            friday += 7;
+        }
+
+// task 8
+// когда увидим комету? Период кометы 79 лет, годы: -200 ... +100 олт текущего
+        System.out.println("\n*** task 8: when will we see a comet with a period of 79 years?");
+        int yearComet = 0;
+        int yearToday = 2022;
+        do {
+            if (yearComet >= (yearToday - 200))
+                System.out.println(yearComet);
+            yearComet += 79;
+        }
+        while (yearComet <= (yearToday + 100));
+
+// task 9
+// таблица умножения на 2
+        System.out.println("\n*** task 9: multiplication table by 2");
+        for (i = 1; i <= 10; i++)
+            System.out.println("2 * "+i+" = "+ i*2);
     }
 }
