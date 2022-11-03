@@ -91,7 +91,7 @@ public class Main {
 
 // task 9
 // таблица умножения на 2
-        System.out.println("\n*** task 9: multiplication table by 2");
+        System.out.println("\n*** task 9: multiplication table by 2 ");
         for (i = 1; i <= 10; i++)
             System.out.println("2 * "+i+" = "+ i*2);
     }
