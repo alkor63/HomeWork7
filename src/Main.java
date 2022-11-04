@@ -71,7 +71,7 @@ public class Main {
 // task 7
 // пятница - день отчётов
         System.out.println("\n*** task 7: Friday is the day for reports");
-        int friday = 3;
+        int friday = 2;
         while (friday <=31) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
             friday += 7;
