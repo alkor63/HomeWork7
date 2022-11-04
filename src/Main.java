@@ -71,7 +71,7 @@ public class Main {
 // task 7
 // пятница - день отчётов
         System.out.println("\n*** task 7: Friday is the day for reports");
-        int friday = 3;
+        int friday = 2;
         while (friday <=31) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
             friday += 7;
@@ -91,8 +91,30 @@ public class Main {
 
 // task 9
 // таблица умножения на 2
-        System.out.println("\n*** task 9: multiplication table by 2");
+        System.out.println("\n*** task 9: multiplication table by 2 ");
         for (i = 1; i <= 10; i++)
             System.out.println("2 * "+i+" = "+ i*2);
+
+// task *1*
+// выводим числа от 1 до 30 и приписываем ping если кратно 3 и pong если кратно 5
+        System.out.println("\n*** task *1: ping (3) pong (5) ");
+        for (i = 1; i <= 30; i++) {
+            System.out.print(i+": ");
+            if (i%3 == 0) System.out.print("ping ");
+            if (i%5 == 0) System.out.print("pong ");
+            System.out.print("\n");
+        }
+
+// task *2*
+// выводим первые 10 чисел последовательности Фибоначчи
+        System.out.println("\n*** task *2*: 10 numbers of Fibonacci");
+        int a = 0;
+        int b = 1;
+        for (i = 0; i < 5; i++) {
+            System.out.print(a+" "+b+" ");
+            a = a + b;
+            b = b + a;
+        }
+        System.out.println();
     }
 }
