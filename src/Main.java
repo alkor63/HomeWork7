@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, HomeWork#7 !");
 // task 1
-// Откладываем по 15 000 Эпод подушкуЭ, пока не накопим 2 459 000
+// Откладываем по 15 000 "под подушку", пока не накопим 2 459 000
         System.out.println("*** task 1: summa 15 000 * ?months >= 2 459 000");
         int mohth = 1;
         int summa = 15_000;
@@ -26,7 +26,7 @@ public class Main {
         System.out.print("\n");
 
 // task 3
-// поситать численность населения через 10 лет если годовой прирост (17 - 8) на 1000 человек
+// посчитать численность населения через 10 лет если годовой прирост (17 - 8) на 1000 человек
         System.out.println("\n*** task 3: calculate the population in 10 years");
         int population = 12_000_000;
         int years;
@@ -36,7 +36,7 @@ public class Main {
         }
 
 // task 4
-// поситать за сколько месяцев Василий накопит 12млн начав с 15000 под 7% в месяц
+// посчитать за сколько месяцев Василий накопит 12млн начав с 15000 под 7% в месяц
         System.out.println("\n*** task 4: saving up from 15_000 to 12_000_000 (7% per month)");
         double summaV = 15000;
         mohth = 0;
